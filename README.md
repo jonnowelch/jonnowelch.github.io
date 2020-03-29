@@ -1,1 +1,1 @@
-Thanks for visiting my site! My contact details are listed on the page, please feel free to contact with me with and questions/quereies and to visit all my pages and repos.
+Thanks for visiting my GitHub, this page can be viewed at https://jonnowelch.github.io./ . My contact details are listed on the page, please feel free to contact with me with and questions/quereies and to visit all my pages and repos.
