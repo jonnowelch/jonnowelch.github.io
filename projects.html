@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .navbar a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .header {
+        padding: 80px;
+        text-align: center;
+        background: url("banner.jpg");
+        color: white;
+        font-size: 25px;
+      }
+
+      .header h1 {
+        font-size: 70px;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+      }
+      .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 80px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.javascript {
+  height:130px;
+}
+.react {
+  height: 130px;
+}
+.react-native {
+  height: 130px;
+}
+
+.python {
+  height: 130px;
+}
+.express {
+  height: 130px;
+}
+.node {
+  height: 130px;
+}
+.typescript {
+  height: 130px;
+}
+.psql {
+  height: 130px;
+}
+.knex {
+  height: 130px;
+}
+.languages{
+color: rgb(60, 60, 68);
+font-weight: bold;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Jonno Welch</h1>
+      <p>Manchester based full stack developer</p>
+    </div>
+  <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Repos for projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://github.com/jonnowelch/jw-films-review">React Native Film Review Front end app</a>
+          <a href="https://github.com/jonnowelch/fe-nc-news"
+            >Forum front end repo</a
+          >
+          <a href="https://github.com/jonnowelch/be-nc-news"
+            >Forum back end repo</a
+          >
+          <a href="https://github.com/jonnowelch/MonitAir---F-END"
+          >MonitAir front end repo</a
+          >
+          <a href="https://github.com/GustavHolst/MonitAir-back-end"
+          >MonitAir back end repo</a
+          >
+          <a href="https://github.com/jonnowelch/task-app">React Task Github repo</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Websites
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://fe-nc-news-jonnowelch.netlify.com/">Forum web app</a>
+          <a href="https://jw-task.netlify.com/"> React Task app</a>
+
+        </div>
+      </div>
+    </div>
+
+    <h3>
+      Linked above are the repos for my projects and my websites
+    </h3>
+    <p>
+      Please feel free to look over them and contact me with any further queries
+      you may have.
+    </p>
+    <h3>I have used a variety of tech and languages for my apps, including:</h3>
+    <ul class='languages'>
+      <li>Javascript</li>
+      <li>React Native</li>
+      <li>React</li>
+      <li>Python</li>
+      <li>Typescript</li>
+      <li>Express</li>
+      <li>Knex</li>
+      <li>Node</li>
+      <li>PSQL</li>
+
+    </ul>
+    <!-- <div class="row">
+      <div class="column">
+        <img src="assets/javascript.png" class='javascript'>
+        <img src="assets/python.png" class='python'>
+        <img src="assets/knex.png"class='knex'>
+        
+      </div>
+      <div class="column">
+        <img src="assets/react.png" class='react'>
+        <img src="assets/psql.png" class='psql'>
+        <img src="assets/node.png" class='node'>
+      </div>
+      <div class="column">
+        <img src="assets/react-native.png" class='react-native'>
+        <img src="assets/typescript.png" class='typescript'>
+        <img src="assets/express.png" class='express'>
+      </div>
+       -->
+    <div class="footer">
+      <h2>
+        Contact Info: <br />
+        <a
+          href="mailto:jonnowelch@yahoo.com?Subject=Hello%20Jonno"
+          target="_top"
+          >jonnowelch@yahoo.com</a
+        >
+        <br />
+        07894 021 677
+      </h2>
+    </div>
+  </body>
+</html>
